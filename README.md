@@ -35,11 +35,16 @@ Instalación
 ## Descargar el proyecto:
 
   •	Clona el repositorio del proyecto en tu máquina local con el siguiente comando:
+      ```bash
      git clone <URL_DEL_REPOSITORIO>
+     ```
 
 ## Mover el proyecto a XAMPP:
 
- -	Copia o mueve la carpeta `portal-de-eventos` a la carpeta `htdocs` de tu instalación de XAMPP. La ruta típica es:  C:\xampp\htdocs\portal-de-eventos
+ -	Copia o mueve la carpeta `portal-de-eventos` a la carpeta `htdocs` de tu instalación de XAMPP. La ruta típica es:
+        ```
+     C:\xampp\htdocs\portal-de-eventos
+     ```
 
 ## Configurar XAMPP
 
