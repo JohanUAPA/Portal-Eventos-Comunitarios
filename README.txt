@@ -106,5 +106,3 @@ La base de datos `portal_evento` contiene las siguientes tablas:
    - `fecha`: TIMESTAMP, NOT NULL DEFAULT CURRENT_TIMESTAMP
 
 
-## Estructura del Proyecto
-
