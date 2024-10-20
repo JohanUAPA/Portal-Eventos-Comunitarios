@@ -42,7 +42,8 @@ Instalación
 ## Mover el proyecto a XAMPP:
 
  -	Copia o mueve la carpeta `portal-de-eventos` a la carpeta `htdocs` de tu instalación de XAMPP. La ruta típica es:
-        ```
+
+  	 ```
      C:\xampp\htdocs\portal-de-eventos
      ```
 
