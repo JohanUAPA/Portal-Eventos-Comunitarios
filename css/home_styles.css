@@ -1,0 +1,97 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.event-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.event-info {
+    margin: 10px 0;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+/* Adaptabilidad */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 40px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section p {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        margin: 5px;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+}
