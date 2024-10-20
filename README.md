@@ -4,26 +4,32 @@ El Portal de Eventos Comunitarios es una plataforma web desarrollada en PHP, con
 
 ## Funcionalidades
 
-  •	Página de Inicio: Muestra los eventos destacados y facilita el acceso rápido a las principales funcionalidades del portal.
-  •	Registro y Autenticación: Permite a los usuarios crear una cuenta, iniciar sesión y gestionar su perfil.
-  •	Gestión de Eventos: Los administradores tienen acceso a un panel donde pueden añadir, editar y eliminar eventos.
-  •	Comentarios y Calificaciones: Los usuarios pueden dejar reseñas y calificar los eventos con un sistema de estrellas.
-  •	Inscripción a Eventos: Los usuarios pueden inscribirse y gestionar los eventos a los que desean asistir.
-  •	Buscador y Filtros: Permite buscar eventos por fecha, categoría y ubicación.
-  •	Panel de Control para Administradores: Herramientas para gestionar usuarios, eventos y comentarios.
+  -	Página de Inicio: Muestra los eventos destacados y facilita el acceso rápido a las principales funcionalidades del portal.
+  
+  -	Registro y Autenticación: Permite a los usuarios crear una cuenta, iniciar sesión y gestionar su perfil.
+  
+  -	Gestión de Eventos: Los administradores tienen acceso a un panel donde pueden añadir, editar y eliminar eventos.
+  
+  - Comentarios y Calificaciones: Los usuarios pueden dejar reseñas y calificar los eventos con un sistema de estrellas.
+  
+  -	Inscripción a Eventos: Los usuarios pueden inscribirse y gestionar los eventos a los que desean asistir.
+  
+  -	Buscador y Filtros: Permite buscar eventos por fecha, categoría y ubicación.
+  
+ -	Panel de Control para Administradores: Herramientas para gestionar usuarios, eventos y comentarios.
 
 ## Tecnologías
 
-  •	PHP: Para la lógica del servidor.
-  •	MySQL: Base de datos relacional que almacena los eventos, usuarios, comentarios e inscripciones.
-  •	HTML y CSS: Para estructurar y estilizar la interfaz del usuario.
-  •	Bootstrap: Framework utilizado para crear un diseño responsivo y atractivo.
-  •	JavaScript: Para añadir interactividad en la interfaz de usuario.JavaScript: Para añadir interactividad en la interfaz de usuario.
+  -	PHP: Para la lógica del servidor.
+  -	MySQL: Base de datos relacional que almacena los eventos, usuarios, comentarios e inscripciones.
+  -	HTML y CSS: Para estructurar y estilizar la interfaz del usuario.
+  -	Bootstrap: Framework utilizado para crear un diseño responsivo y atractivo.
+  -	JavaScript: Para añadir interactividad en la interfaz de usuario.JavaScript: Para añadir interactividad en la interfaz de usuario.
 
 ## Requisitos
 
-  •	XAMPP https://www.apachefriends.org/index.html (incluye Apache y MySQL)
-  •	Navegador web (Chrome, Firefox, etc.)
+  -	XAMPP https://www.apachefriends.org/index.html (incluye Apache y MySQL)
+  -	Navegador web (Chrome, Firefox, etc.)
 Instalación
 
 ## Descargar el proyecto:
@@ -33,18 +39,18 @@ Instalación
 
 ## Mover el proyecto a XAMPP:
 
-  •	Copia o mueve la carpeta `portal-de-eventos` a la carpeta `htdocs` de tu instalación de XAMPP. La ruta típica es:  C:\xampp\htdocs\portal-de-eventos
+ -	Copia o mueve la carpeta `portal-de-eventos` a la carpeta `htdocs` de tu instalación de XAMPP. La ruta típica es:  C:\xampp\htdocs\portal-de-eventos
 
 ## Configurar XAMPP
 
-•	Abre XAMPP y asegúrate de que Apache y MySQL estén en ejecución.
+  - Abre XAMPP y asegúrate de que Apache y MySQL estén en ejecución.
 
 ## Importar la base de datos:
 
-  •	Abre tu navegador y ve a `http://localhost/phpmyadmin`.
-  •	Crea una nueva base de datos llamada `portal_evento`.
-  •	Haz clic en la pestaña "Importar".
-  •	Selecciona el archivo SQL de la base de datos que se incluye en el proyecto y haz clic en "Continuar".
+  -	Abre tu navegador y ve a `http://localhost/phpmyadmin`.
+  -	Crea una nueva base de datos llamada `portal_evento`.
+  - Haz clic en la pestaña "Importar".
+  -	Selecciona el archivo SQL de la base de datos que se incluye en el proyecto y haz clic en "Continuar".
 
 ## Configurar la conexión a la base de datos:
 
@@ -58,14 +64,15 @@ Asegúrate de que la configuración de conexión en tus archivos PHP sea correct
 
 ## Acceder al proyecto:
 
-  •	Ve a `http://localhost/portal-de-eventos` en tu navegador.
- Uso
-Registro de usuarios: Los nuevos usuarios pueden registrarse desde la página de registro.
-Inicio de sesión:Los usuarios registrados pueden iniciar sesión para acceder a sus perfiles y funciones.
-Gestión de eventos: Los administradores pueden crear, editar y eliminar eventos.
-Comentarios y calificaciones: Los usuarios pueden dejar comentarios y calificaciones en los eventos a los que se inscriben.
-Estructura de la Base de Datos
-La base de datos `portal_evento` contiene las siguientes tablas:
+  -	Ve a `http://localhost/portal-de-eventos` en tu navegador.
+
+ ## Uso
+ 
+-Registro de usuarios: Los nuevos usuarios pueden registrarse desde la página de registro.
+-Inicio de sesión:Los usuarios registrados pueden iniciar sesión para acceder a sus perfiles y funciones.
+-Gestión de eventos: Los administradores pueden crear, editar y eliminar eventos.
+-Comentarios y calificaciones: Los usuarios pueden dejar comentarios y calificaciones en los eventos a los que se inscriben.
+
 
 ## Estructura de la Base de Datos
 La base de datos `portal_evento` contiene las siguientes tablas:
@@ -111,3 +118,4 @@ La base de datos `portal_evento` contiene las siguientes tablas:
    - `mensaje`: TEXT, NOT NULL
    - `respondido`: TINYINT(1), DEFAULT 0
    - `fecha`: TIMESTAMP, NOT NULL DEFAULT CURRENT_TIMESTAMP
+
